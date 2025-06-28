@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speak English with Confidence — Online Class for Indians</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Custom Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'sans': ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        'brand-blue': {
+                            'light': '#E0F2FE', // sky-100
+                            'DEFAULT': '#0EA5E9', // sky-500
+                            'dark': '#0C4A6E', // sky-900
+                        },
+                        'brand-yellow': {
+                            'DEFAULT': '#FBBF24', // amber-400
+                            'dark': '#F59E0B', // amber-500
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* A little extra style for smooth scrolling and better focus states */
+        body {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+    </style>
+</head>
+
+<body class="bg-slate-50 font-sans text-slate-800">
+
+    <!-- HERO SECTION -->
+    <div class="relative bg-brand-blue-light overflow-hidden">
+        <div class="max-w-7xl mx-auto">
+            <div class="relative z-10 pb-8 bg-brand-blue-light sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+                <!-- Decorative slant for larger screens -->
+                <svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-brand-blue-light transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+                    <polygon points="50,0 100,0 50,100 0,100" />
+                </svg>
+
+                <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+                    <div class="sm:text-center lg:text-left">
+                        <div class="inline-flex items-center bg-white rounded-full p-1 pr-4 mb-4">
+                            <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-yellow-600 bg-yellow-200">
+                                Rated 4.9⭐️
+                            </span>
+                            <span class="text-sm font-medium ml-2 text-slate-700">by 1,000+ learners</span>
+                        </div>
+                        <h1 class="text-4xl tracking-tight font-extrabold text-brand-blue-dark sm:text-5xl md:text-6xl">
+                            <span class="block">Speak English with</span>
+                            <span class="block text-brand-blue">Confidence</span>
+                        </h1>
+                         <p class="mt-3 text-base text-slate-600 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                           Join India’s most beginner-friendly live English-speaking class. Start speaking fluently from day one!
+                        </p>
+                        <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+                            <div class="rounded-md shadow">
+                                <a href="#pricing" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-brand-yellow hover:bg-brand-yellow-dark md:py-4 md:text-lg md:px-10">
+                                    Join Now
+                                </a>
+                            </div>
+                            <div class="mt-3 sm:mt-0 sm:ml-3">
+                                <a href="https://wa.me/910000000000?text=Hi!%20I'm%20interested%20in%20the%20English%20class." target="_blank" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-brand-blue-dark bg-sky-200 hover:bg-sky-300 md:py-4 md:text-lg md:px-10">
+                                    WhatsApp Us
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+        <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+            <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://placehold.co/1000x800/E0F2FE/0C4A6E?text=Friendly+Online+Class" alt="Student learning English online happily">
+        </div>
+    </div>
+
+    <!-- PROBLEM & SOLUTION SECTION -->
+    <section class="py-16 sm:py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold text-slate-800 sm:text-4xl">Feeling Stuck? You're Not Alone.</h2>
+            <p class="mt-4 text-lg text-slate-600">Many of us struggle with the same things. Does this sound like you?</p>
+            <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Pain Point 1 -->
+                <div class="flex flex-col items-center">
+                    <div class="flex items-center justify-center h-16 w-16 rounded-full bg-brand-blue-light text-brand-blue">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path><path d="M8 14s1.5 2 4 2 4-2 4-2"></path><path d="M9 9h.01"></path><path d="M15 9h.01"></path></svg>
+                    </div>
+                    <h3 class="mt-4 text-lg font-semibold">Fear of Speaking</h3>
+                </div>
+                <!-- Pain Point 2 -->
+                <div class="flex flex-col items-center">
+                    <div class="flex items-center justify-center h-16 w-16 rounded-full bg-brand-blue-light text-brand-blue">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path></svg>
+                    </div>
+                    <h3 class="mt-4 text-lg font-semibold">Low Confidence</h3>
+                </div>
+                <!-- Pain Point 3 -->
+                <div class="flex flex-col items-center">
+                    <div class="flex items-center justify-center h-16 w-16 rounded-full bg-brand-blue-light text-brand-blue">
+                       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 21 1.9-5.7a8.5 8.5 0 1 1 3.8 3.8z"></path></svg>
+                    </div>
+                    <h3 class="mt-4 text-lg font-semibold">Weak Grammar</h3>
+                </div>
+            </div>
+            <p class="mt-12 text-xl md:text-2xl font-semibold bg-green-100 text-green-800 rounded-lg p-6">This class solves it all — with <span class="font-bold">live practice</span>, <span class="font-bold">real feedback</span>, and a <span class="font-bold">supportive teacher.</span></p>
+        </div>
+    </section>
+
+    <!-- KEY FEATURES SECTION -->
+    <section id="features" class="py-16 sm:py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-3xl font-bold text-slate-800 sm:text-4xl">Everything You Need to Succeed</h2>
+                <p class="mt-4 text-lg text-slate-600">A complete program designed for your success.</p>
+            </div>
+            <div class="mt-16 grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+                <!-- Feature Item -->
+                <div class="flex">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-brand-yellow text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 18.5a9 9 0 1 0-10 0"></path><path d="M12 2v8"></path><path d="m4.93 4.93 4.24 4.24"></path></svg>
+                        </div>
+                    </div>
+                    <div class="ml-4">
+                        <h3 class="text-lg leading-6 font-medium text-slate-900">Daily Speaking Sessions</h3>
+                        <p class="mt-2 text-base text-slate-600">Practice speaking every single day in a safe, friendly group environment.</p>
+                    </div>
+                </div>
+                <!-- Feature Item -->
+                <div class="flex">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-brand-yellow text-white">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="ml-4">
+                        <h3 class="text-lg leading-6 font-medium text-slate-900">Live Feedback</h3>
+                        <p class="mt-2 text-base text-slate-600">Get instant corrections on your grammar and pronunciation from an expert teacher.</p>
+                    </div>
+                </div>
+                <!-- Feature Item -->
+                <div class="flex">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-brand-yellow text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+                        </div>
+                    </div>
+                    <div class="ml-4">
+                        <h3 class="text-lg leading-6 font-medium text-slate-900">Interview & Job Prep</h3>
+                        <p class="mt-2 text-base text-slate-600">Special sessions to help you prepare for job interviews and office communication.</p>
+                    </div>
+                </div>
+                 <!-- Feature Item -->
+                <div class="flex">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-brand-yellow text-white">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                        </div>
+                    </div>
+                    <div class="ml-4">
+                        <h3 class="text-lg leading-6 font-medium text-slate-900">PDFs + Notes</h3>
+                        <p class="mt-2 text-base text-slate-600">Get easy-to-understand notes and practice material after every class.</p>
+                    </div>
+                </div>
+                 <!-- Feature Item -->
+                <div class="flex">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-brand-yellow text-white">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2z"></path><path d="M12 8v4l2 1"></path><path d="M16 12.5a4 4 0 1 1-8 0 4 4 0 0 1 8 0z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="ml-4">
+                        <h3 class="text-lg leading-6 font-medium text-slate-900">Flexible Timings</h3>
+                        <p class="mt-2 text-base text-slate-600">Morning and evening batches available to fit your busy schedule.</p>
+                    </div>
+                </div>
+                 <!-- Feature Item -->
+                <div class="flex">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-brand-yellow text-white">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 9.5a9 9 0 1 0-10 0"></path><path d="M12 14.5a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"></path><path d="M5 9.5a7 7 0 0 1 14 0"></path><path d="m15.5 13-1.5 6"></path><path d="m8.5 13 1.5 6"></path></svg>
+                        </div>
+                    </div>
+                    <div class="ml-4">
+                        <h3 class="text-lg leading-6 font-medium text-slate-900">Affordable for Everyone</h3>
+                        <p class="mt-2 text-base text-slate-600">High-quality learning at a price that doesn't break the bank.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHO SHOULD JOIN SECTION -->
+    <section class="py-16 sm:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold text-slate-800 sm:text-4xl">This Class is Perfect For You If You Are a...</h2>
+            <div class="mt-12 grid grid-cols-2 md:grid-cols-4 gap-8">
+                <!-- Avatar 1 -->
+                <div class="flex flex-col items-center p-6 bg-slate-50 rounded-lg">
+                    <span class="text-5xl">🎓</span>
+                    <h3 class="mt-4 text-xl font-semibold">Student</h3>
+                    <p class="mt-1 text-slate-600">Ace your exams, presentations, and interviews.</p>
+                </div>
+                <!-- Avatar 2 -->
+                <div class="flex flex-col items-center p-6 bg-slate-50 rounded-lg">
+                    <span class="text-5xl">👩‍🍳</span>
+                    <h3 class="mt-4 text-xl font-semibold">Homemaker</h3>
+                    <p class="mt-1 text-slate-600">Gain confidence for daily life and social gatherings.</p>
+                </div>
+                <!-- Avatar 3 -->
+                <div class="flex flex-col items-center p-6 bg-slate-50 rounded-lg">
+                    <span class="text-5xl">💼</span>
+                    <h3 class="mt-4 text-xl font-semibold">Job Seeker</h3>
+                    <p class="mt-1 text-slate-600">Get the job you deserve with powerful English skills.</p>
+                </div>
+                 <!-- Avatar 4 -->
+                 <div class="flex flex-col items-center p-6 bg-slate-50 rounded-lg">
+                    <span class="text-5xl">📞</span>
+                    <h3 class="mt-4 text-xl font-semibold">Professional</h3>
+                    <p class="mt-1 text-slate-600">Improve client communication and grow your career.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HOW IT WORKS SECTION -->
+    <section class="py-16 sm:py-24 bg-slate-50">
+        <div class="max-w-4xl mx-auto px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-3xl font-bold text-slate-800 sm:text-4xl">Four Simple Steps to Fluency</h2>
+            </div>
+            <div class="mt-16 grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+                <!-- Step 1 -->
+                <div class="flex flex-col items-center">
+                    <div class="flex items-center justify-center h-16 w-16 rounded-full bg-white border-2 border-brand-blue text-brand-blue-dark text-2xl font-bold">1</div>
+                    <h3 class="mt-4 text-lg font-semibold">Sign Up</h3>
+                    <p class="mt-1 text-slate-600">Choose your plan and enroll in seconds.</p>
+                </div>
+                <!-- Step 2 -->
+                <div class="flex flex-col items-center">
+                    <div class="flex items-center justify-center h-16 w-16 rounded-full bg-white border-2 border-brand-blue text-brand-blue-dark text-2xl font-bold">2</div>
+                    <h3 class="mt-4 text-lg font-semibold">Join Live Class</h3>
+                    <p class="mt-1 text-slate-600">Get your Google Meet/Zoom link and join on time.</p>
+                </div>
+                <!-- Step 3 -->
+                <div class="flex flex-col items-center">
+                    <div class="flex items-center justify-center h-16 w-16 rounded-full bg-white border-2 border-brand-blue text-brand-blue-dark text-2xl font-bold">3</div>
+                    <h3 class="mt-4 text-lg font-semibold">Practice Speaking</h3>
+                    <p class="mt-1 text-slate-600">Participate in daily activities and speak without fear.</p>
+                </div>
+                <!-- Step 4 -->
+                <div class="flex flex-col items-center">
+                    <div class="flex items-center justify-center h-16 w-16 rounded-full bg-white border-2 border-brand-blue text-brand-blue-dark text-2xl font-bold">4</div>
+                    <h3 class="mt-4 text-lg font-semibold">Track Your Growth</h3>
+                    <p class="mt-1 text-slate-600">See your confidence and fluency improve week by week.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- WHAT'S INCLUDED & TESTIMONIALS (COMBINED SECTION) -->
+    <section class="py-16 sm:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 grid lg:grid-cols-2 gap-16">
+            <!-- What's Included -->
+            <div>
+                 <h2 class="text-3xl font-bold text-slate-800 sm:text-4xl">Get More Than Just Classes</h2>
+                 <p class="mt-4 text-lg text-slate-600">Your enrollment comes with valuable free bonuses.</p>
+                 <ul class="mt-8 space-y-4">
+                     <li class="flex items-start">
+                         <div class="flex-shrink-0 h-6 w-6 flex items-center justify-center bg-green-100 rounded-full">
+                            <svg class="h-4 w-4 text-green-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                         </div>
+                         <p class="ml-3 text-base text-slate-700 font-medium">Certificate of Completion</p>
+                     </li>
+                     <li class="flex items-start">
+                         <div class="flex-shrink-0 h-6 w-6 flex items-center justify-center bg-green-100 rounded-full">
+                            <svg class="h-4 w-4 text-green-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                         </div>
+                         <p class="ml-3 text-base text-slate-700 font-medium">Lifetime Access to Class Recordings</p>
+                     </li>
+                      <li class="flex items-start">
+                         <div class="flex-shrink-0 h-6 w-6 flex items-center justify-center bg-green-100 rounded-full">
+                            <svg class="h-4 w-4 text-green-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                         </div>
+                         <p class="ml-3 text-base text-slate-700 font-medium">Private WhatsApp Group for Practice</p>
+                     </li>
+                     <li class="flex items-start">
+                         <div class="flex-shrink-0 h-6 w-6 flex items-center justify-center bg-green-100 rounded-full">
+                            <svg class="h-4 w-4 text-green-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                         </div>
+                         <p class="ml-3 text-base text-slate-700 font-medium">Bonus: Personality Development Tips</p>
+                     </li>
+                 </ul>
+            </div>
+            <!-- Testimonials -->
+            <div class="mt-12 lg:mt-0">
+                 <h2 class="text-3xl font-bold text-slate-800 sm:text-4xl">What Our Students Say</h2>
+                 <div class="mt-8 space-y-8">
+                     <!-- Testimonial Card 1 -->
+                     <div class="p-6 bg-slate-50 rounded-xl shadow-sm">
+                         <div class="flex items-start">
+                             <img class="h-12 w-12 rounded-full" src="https://placehold.co/100x100/fde68a/422006?text=AS" alt="Ayesha S.">
+                             <div class="ml-4">
+                                 <p class="text-base text-slate-600">“Now I speak fluently in front of clients! I was very hesitant before, but the daily practice sessions removed all my fear. Thank you!”</p>
+                                 <p class="mt-2 text-sm font-semibold text-slate-800">Ayesha S., Mumbai</p>
+                             </div>
+                         </div>
+                     </div>
+                     <!-- Testimonial Card 2 -->
+                     <div class="p-6 bg-slate-50 rounded-xl shadow-sm">
+                         <div class="flex items-start">
+                             <img class="h-12 w-12 rounded-full" src="https://placehold.co/100x100/dbeafe/1e3a8a?text=RK" alt="Rohan K.">
+                             <div class="ml-4">
+                                 <p class="text-base text-slate-600">“As a student, this course was a game-changer for my college presentations and group discussions. It's affordable and very effective.”</p>
+                                 <p class="mt-2 text-sm font-semibold text-slate-800">Rohan K., Delhi</p>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRICING SECTION -->
+    <section id="pricing" class="py-16 sm:py-24 bg-brand-blue-light">
+        <div class="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold text-brand-blue-dark sm:text-4xl">Choose Your Plan</h2>
+            <p class="mt-4 text-lg text-slate-700">Simple, transparent pricing. Join the next batch before seats are full!</p>
+            <div class="mt-12 flex flex-col md:flex-row justify-center items-stretch gap-8">
+                <!-- Pricing Card 1 -->
+                <div class="w-full md:w-1/2 lg:w-2/5 p-8 bg-white rounded-xl shadow-lg flex flex-col">
+                    <h3 class="text-2xl font-bold text-slate-800">Monthly Plan</h3>
+                    <p class="mt-4 text-5xl font-extrabold text-slate-900">₹499</p>
+                    <p class="text-base font-medium text-slate-500">per month</p>
+                    <ul class="mt-6 text-left space-y-3">
+                        <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Daily Live Classes</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>All Course Materials</li>
+                    </ul>
+                     <a href="#" class="mt-auto w-full block text-center bg-sky-200 text-brand-blue-dark font-bold py-3 px-6 rounded-lg hover:bg-sky-300 transition-colors duration-300">
+                        Choose Monthly
+                    </a>
+                </div>
+                <!-- Pricing Card 2 (Most Popular) -->
+                 <div class="w-full md:w-1/2 lg:w-2/5 p-8 bg-white rounded-xl shadow-lg flex flex-col border-4 border-brand-yellow relative">
+                    <div class="absolute top-0 -translate-y-1/2 left-1/2 -translate-x-1/2">
+                        <span class="inline-flex items-center px-4 py-1 rounded-full text-sm font-semibold tracking-wider text-yellow-900 bg-brand-yellow uppercase">Most Popular</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-800">Quarterly Plan</h3>
+                    <p class="mt-4 text-5xl font-extrabold text-slate-900">₹1299</p>
+                    <p class="text-base font-medium text-slate-500">for 3 months (save 15%)</p>
+                    <ul class="mt-6 text-left space-y-3">
+                        <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Daily Live Classes</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>All Course Materials</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Certificate Included</li>
+                    </ul>
+                     <a href="#" class="mt-auto w-full block text-center bg-brand-yellow text-white font-bold py-3 px-6 rounded-lg hover:bg-brand-yellow-dark transition-colors duration-300">
+                        Join & Save
+                    </a>
+                </div>
+            </div>
+             <div class="mt-10">
+                <p class="text-lg font-semibold bg-red-100 text-red-700 inline-block px-4 py-2 rounded-md">Next batch starts soon: Only 8 seats left!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FINAL CTA SECTION -->
+    <section class="bg-white">
+        <div class="max-w-4xl mx-auto text-center py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-extrabold text-slate-900 sm:text-4xl">
+                <span class="block">Ready to Start Your Journey?</span>
+            </h2>
+            <p class="mt-4 text-lg leading-6 text-slate-600">No experience needed. All you need is your phone and 30 minutes a day.</p>
+            <div class="mt-8 flex justify-center space-x-4">
+                 <a href="#pricing" class="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-brand-yellow hover:bg-brand-yellow-dark md:py-4 md:text-lg md:px-10">
+                    Join Class Now
+                </a>
+                <a href="https://wa.me/910000000000?text=Hi!%20I'm%20interested%20in%20the%20English%20class%20and%20have%20a%20question." target="_blank" class="inline-flex items-center justify-center px-5 py-3 border border-gray-300 text-base font-medium rounded-md text-slate-700 bg-white hover:bg-gray-50">
+                    Chat Before Enrolling
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-800 text-center text-white py-6">
+        <p>&copy; 2024 Your English Class. All Rights Reserved.</p>
+    </footer>
+
+
+    <!-- FLOATING MOBILE CTA BAR -->
+    <div class="fixed bottom-0 left-0 right-0 bg-white p-3 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)] md:hidden z-50 flex items-center justify-around space-x-2">
+        <a href="https://wa.me/910000000000?text=Hi!%20I'm%20interested%20in%20the%20English%20class." target="_blank" class="w-full flex items-center justify-center px-4 py-3 border border-green-500 text-base font-bold rounded-md text-green-600 bg-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16.75 13.96c.25.13.41.2.52.28.13.1.23.23.3.38.11.18.11.4.05.66c-.05.25-.16.48-.33.68c-.2.23-.49.43-.84.56c-.34.13-1.29.28-2.43-.16c-1.73-.65-3.23-1.89-4.32-3.44c-.93-1.34-1.5-2.88-1.58-3.48c-.06-.5.14-1.03.52-1.38c.13-.13.28-.2.44-.2h.5c.22 0 .43.08.57.25c.29.33.64.98.72 1.08c.08.1.13.23.05.38c-.09.15-.18.25-.3.41c-.11.15-.22.3-.18.48c.04.18.3.73.78 1.25c.6.62 1.18.98 1.43 1.08c.25.1.43.04.6-.13c.18-.18.38-.45.53-.63c.15-.18.33-.25.53-.16Z M12 2a10 10 0 0 0-10 10c0 5.52 4.48 10 10 10c1.76 0 3.42-.46 4.88-1.29l1.83.61l-.6-1.81c.88-1.46 1.39-3.13 1.39-4.9c0-5.52-4.48-10-10-10Z"/></svg>
+            <span class="ml-2">WhatsApp</span>
+        </a>
+        <a href="#pricing" class="w-full flex items-center justify-center px-4 py-3 border border-transparent text-base font-bold rounded-md text-white bg-brand-yellow hover:bg-brand-yellow-dark">
+            Join Class Now
+        </a>
+    </div>
+
+</body>
+</html>
